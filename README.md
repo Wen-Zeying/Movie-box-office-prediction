@@ -88,5 +88,5 @@ Adjusted R^2 will increase and vice versa.
 Median absolute error (MAD) : MAD is a robust regression assessment indicator. It is more adaptable to outliers in the
 results than RMSE and MSE.
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MAD.png" height=100%>
+    <img src="https://github.com/Wen-Zeying/Movie-box-office-prediction-/blob/main/figures/flowchart/MAD.png" height=100%>
 </p>
