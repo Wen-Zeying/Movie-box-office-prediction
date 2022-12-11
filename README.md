@@ -57,6 +57,26 @@ The prediction results provided by the GBDT as follwing:
     <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/GBDT/plt_grb6.png" height=100%>
 </p>
 
+### Random Forest
+Random forests (RF) are an ensemble learning method
+for classification, regression and other tasks that operates by
+constructing a multitude of decision trees at training time and
+outputting the class that is the mode of the classes (classification)
+or mean prediction (regression) of the individual trees.
+In the regression problem, the weak learner always is CART.
+Usually, when the subtree of CART is divided, it will find the
+best feature among all the features to divide. The difference of
+RF is that it firstly randomly selects some features, and then
+finds the optimal feature from these features to divide. This
+enhances the generalization capability of the model.
+The prediction results provided by the RF as follwing:
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/RandomF/pt_rf4.png" height=100%>
+</p>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/RandomF/plt_rf4.png" height=100%>
+</p>
+
 ### Evaluation Criterion
 
 Mean Absolute Error (MAE) : MAE is the average of the absolute errors between all predicted and true values, and can
@@ -88,5 +108,6 @@ Adjusted R^2 will increase and vice versa.
 Median absolute error (MAD) : MAD is a robust regression assessment indicator. It is more adaptable to outliers in the
 results than RMSE and MSE.
 <p align="center">
-    <img src="https://github.com/Wen-Zeying/Movie-box-office-prediction-/blob/main/figures/flowchart/MAD.png" height=100%>
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MAD.png" height=100%>
 </p>
+where median(.) represents the median value.
