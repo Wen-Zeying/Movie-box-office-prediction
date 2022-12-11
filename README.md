@@ -8,3 +8,7 @@ Boosting, which uses a number of weak learners to create a strong learner, is an
 <p align="center">
     <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/GBDT/plt_grb6.png" height=120>
 </p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/GBDT/plt_grb6.png" height=100%>
+</p>
