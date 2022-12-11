@@ -75,18 +75,18 @@ Coefficient of determination(R^2) : R^2 represents the degree of fitting of the 
 the
 true value.The closer to 1 the better the degree of fit.
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MSE.png" height=100%>
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/R2.png" height=100%>
 </p>
 
 Adjusted R^2 : Adjusted R^2 is an extended criterion based on R2 to solve the inaccuracy of the evaluation value caused
 by the increase in the value of R^2 as the number of samples increases. If a useful variable is added to the model,
 Adjusted R^2 will increase and vice versa.
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MSE.png" height=100%>
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/A%20R2.png" height=100%>
 </p>
 
 Median absolute error (MAD) : MAD is a robust regression assessment indicator. It is more adaptable to outliers in the
 results than RMSE and MSE.
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MSE.png" height=100%>
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MAD.png" height=100%>
 </p>
