@@ -9,6 +9,12 @@ Boosting, which uses a number of weak learners to create a strong learner, is an
     <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/Bagging%20flowchart.png" height=100%>
 </p>
 
+## Bagging
+Bagging (Bootstrap Aggregating) uses Boostrap sampling for the training data, that is, the data is sampled back. Each time the sampled data is utilized to train a weak learner. T weak learners are obtained after T re-sampling sampling, and then a strong learner is synthesized according to the combined strategy weak learner. The flowchart of baggting method as follwing.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/Bagging%20flowchart.png" height=100%>
+</p>
 <p align="center">
     <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/GBDT/plt_grb6.png" height=100%>
 </p>
