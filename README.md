@@ -62,5 +62,31 @@ The prediction results provided by the GBDT as follwing:
 Mean Absolute Error (MAE) : MAE is the average of the absolute errors between all predicted and true values, and can
 visually reflect the error between them.
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/GBDT/MEA.png" height=100%>
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MAE.png" height=100%>
+</p>
+
+Mean Square Error (MSE) : The MSE is the average of the sum of the squares of the errors between all predicted and true
+values. It is a commonly used indicator for evaluating regression tasks.
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MSE.png" height=100%>
+</p>
+
+Coefficient of determination(R^2) : R^2 represents the degree of fitting of the predicted value to the curve formed by
+the
+true value.The closer to 1 the better the degree of fit.
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MSE.png" height=100%>
+</p>
+
+Adjusted R^2 : Adjusted R^2 is an extended criterion based on R2 to solve the inaccuracy of the evaluation value caused
+by the increase in the value of R^2 as the number of samples increases. If a useful variable is added to the model,
+Adjusted R^2 will increase and vice versa.
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MSE.png" height=100%>
+</p>
+
+Median absolute error (MAD) : MAD is a robust regression assessment indicator. It is more adaptable to outliers in the
+results than RMSE and MSE.
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Wen-Zeying/Movie-box-office-prediction-/main/figures/flowchart/MSE.png" height=100%>
 </p>
